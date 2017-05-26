@@ -1,6 +1,4 @@
-package org.usfirst.frc.team5124.robot.commands;
-
-import org.usfirst.frc.team5124.robot.Robot;
+package org.usfirst.frc.team5124.commands;
 
 import edu.wpi.first.wpilibj.command.Command;
 
@@ -10,7 +8,8 @@ import edu.wpi.first.wpilibj.command.Command;
 public class DrivetrainJoystickPuppetry extends Command {
 
     public DrivetrainJoystickPuppetry() {
-    	requires(Robot.drivetrain);
+        // Use requires() here to declare subsystem dependencies
+        // eg. requires(chassis);
     }
 
     // Called just before this Command runs the first time
