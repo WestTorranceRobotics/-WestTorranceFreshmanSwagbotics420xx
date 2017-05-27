@@ -1,16 +1,12 @@
-package org.usfirst.frc.team5124.subsystems;
+package org.usfirst.frc5124.WestTorranceLearn.subsystems;
 
-import org.usfirst.frc.team5124.commands.DrivetrainJoystickPuppetry;
-import org.usfirst.frc.team5124.robot.Robot;
-import org.usfirst.frc.team5124.robot.RobotMap;
-
+import org.usfirst.frc5124.WestTorranceLearn.commands.DrivetrainJoystickPuppetry;
+import org.usfirst.frc5124.WestTorranceLearn.Robot;
+import org.usfirst.frc5124.WestTorranceLearn.RobotMap;
 import edu.wpi.first.wpilibj.Compressor;
 import edu.wpi.first.wpilibj.RobotDrive;
 import edu.wpi.first.wpilibj.command.Subsystem;
 
-/**
- *
- */
 public class Drivetrain extends Subsystem {
 
     private final RobotDrive robotDrive = RobotMap.drivetrainRobotDrive;

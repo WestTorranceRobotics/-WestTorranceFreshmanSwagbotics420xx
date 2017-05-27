@@ -1,13 +1,13 @@
-package org.usfirst.frc.team5124.commands;
+package org.usfirst.frc5124.WestTorranceLearn.commands;
 
 import edu.wpi.first.wpilibj.command.Command;
 
 /**
  *
  */
-public class DrivetrainJoystickPuppetry extends Command {
+public class IntakeOuttakeParticles extends Command {
 
-    public DrivetrainJoystickPuppetry() {
+    public IntakeOuttakeParticles() {
         // Use requires() here to declare subsystem dependencies
         // eg. requires(chassis);
     }
